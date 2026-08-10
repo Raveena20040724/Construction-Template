@@ -1,0 +1,41 @@
+{
+  "name": "construction-website-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.0.0",
+    "lucide-react": "^1.30.0",
+    "react": "^19.2.8",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.2.8",
+    "react-helmet-async": "^3.0.0",
+    "react-hook-form": "^7.85.0",
+    "react-router-dom": "^7.18.2",
+    "react-toastify": "^11.1.0",
+    "swiper": "^14.1.0",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.75.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
